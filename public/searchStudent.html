@@ -47,7 +47,7 @@
        // console.log("button pushed");
       var lname_val = $("#lname").val();
       $.ajax({
-        url: "http://localhost:5678/students/search/" + lname_val,
+        url: "/students/search/" + lname_val,
         type: "get",
         data: {
           last_name: lname_val

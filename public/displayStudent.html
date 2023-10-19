@@ -46,7 +46,7 @@
        // console.log("button pushed");
       var id = $("#record_id").val();
       $.ajax({
-        url: "http://localhost:5678/students/" + id,
+        url: "/students/" + id,
         type: "get",
         data: {
           record_id: id,
